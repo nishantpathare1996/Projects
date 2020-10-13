@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDarkBlue">#00008B</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="chromeYellow">#FFCE44</color>
+    <color name="cobaltBlue">#6A5ACD</color>
+    <color name="darkGreen">#0AC92B</color>
+    <color name="red">#FF0000</color>
+    <color name="turquoise">#40E0D0</color>
+    <color name="orchid">#BA55D3</color>
+    <color name="fuchsia">#FF00FF</color>
+
+    <array name="shades">
+        <item>@color/black</item>
+        <item>@color/chromeYellow</item>
+        <item>@color/cobaltBlue</item>
+        <item>@color/darkGreen</item>
+        <item>@color/red</item>
+        <item>@color/turquoise</item>
+        <item>@color/orchid</item>
+        <item>@color/fuchsia</item>
+    </array>
+</resources>
