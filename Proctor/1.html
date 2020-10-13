@@ -1,0 +1,115 @@
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-U-A Compatible" content="IE-edge">
+		<meta name="viewport" content="Width=device-width,initial-scale=1">
+		<title>PROCTORit</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/proctor.css" rel="stylesheet">
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</head>
+
+
+	<body id="menu1">
+
+		<div id="menu" class="container-fluid">
+			
+			<br>
+			<h1 id="heading" align="center">PROCTORit</h1>
+			<br>
+				
+		</div>
+		<nav class="navbar navbar-inverse custom">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+      				<a class="navbar-brand" href="1.html">PROCTORit</a>
+    			</div>
+    				<ul class="nav navbar-nav">
+				    	<li class="active"><a href="1.html">Home</a></li>
+					    <li><a href="about.html">About</a></li>
+					   
+					    
+				    </ul>
+  			</div>
+		</nav>	
+
+		<div class="row">
+			<br><br>
+  			<div class="col-sm-7" style="margin-left:20px;text-align: justify;font-size: 17px; ">PROCTORit site has been developed by the students of Saraswati College Of Engineering to help maintaining the records of proctor diary filling . This project aims in making the job less tidous and also helps in saving a lot of time. New students have to register first. The username will be the gr no. which is unique for every student. The proctors would have to login with the username and password provided by the admin. Once he/she logs in, he/she can view the marks as well as the details entered by the students. The student would have the option to fill the complete details, enter semester marks, update as well as view the marks<br><br><br><br>
+  						
+		  				
+
+  			 </div>
+			<div class="col-sm-3"> 
+				<div class="container">
+			    	<div class="row">
+						<div class="col-md-4 ">
+							
+					<!from here the box starts->
+							<div  class="panel panel-login" >
+
+								<div class="panel-heading" style="background-color: #030b16">
+									<div class="btn-group">
+									  <button type="button" id="studlogin" class="btn active" style="background-color: #4717f6;color: white; border-color: white;" >STUDENT LOGIN</button>
+									  <a href="dblogin.php"  class="btn" style="background-color: #4717f6;color: white;border-color: white;">PROCTOR LOGIN</a>
+									</div>
+								</div>
+								<div id="stud" class="panel-body giveme" >
+									<div class="row">
+										<div class="col-xs-12">
+											<form id="login-form" action="checklogin.php" method="post" role="form" style="display: block;">
+												<div class="form-group">
+													<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+												</div>
+												<div class="form-group">
+													<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+												</div>
+											
+												<div class="form-group">
+													<div class="row">
+														<div class="col-sm-6 col-sm-offset-3">
+															<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+														</div>
+													</div>
+												</div>
+
+												<a href="form.html" style="margin-left:92px;background-color:#a239ca" class="btn btn-primary btn-lg">Register here</a>
+											</form>
+
+										</div>
+									</div>
+								</div>
+							
+
+
+							</div></div>
+						<script>
+   $('#studlogin').click(function(e) {
+		$("#stud").delay(100).fadeIn(100);
+ 		$("#proct").fadeOut(100);
+		$('#studlogin').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+	$('#proctlogin').click(function(e) {
+		$("#proct").delay(100).fadeIn(100);
+ 		$("#stud").fadeOut(100);
+		$('#proctlogin').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+
+</script>
+
+
+						</div>
+					</div>
+				</div>	
+
+				
+	
+
+	</body>

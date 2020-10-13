@@ -1,0 +1,367 @@
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-U-A Compatible" content="IE-edge">
+		<meta name="viewport" content="Width=device-width,initial-scale=1">
+		<title>FORMit1</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/proctor.css" rel="stylesheet">
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</head>
+
+
+	<body id="menu1">
+
+		<div id="menu" class="container-fluid">
+			
+			<br>
+			<h1 id="heading" align="center">PROCTORit</h1>
+			<br><br>
+				
+		</div>
+		<nav class="navbar navbar-inverse custom">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+      				<a class="navbar-brand" href="1.html">PROCTORit</a>
+    			</div>
+    				<ul class="nav navbar-nav">
+				    	<li class="active"><a href="login.php">Home</a></li>
+					   
+				    </ul>
+  			</div>
+		</nav>
+<!-the form starts here->
+		<div class="container-fluid">
+			
+			<div class="row">
+				<div class="col-sm-2"> 
+					<nav id="vertical" class="col-sm-" data-spy="affix" data-offset-top="205">
+	      				<ul class="nav nav-pills nav-stacked">
+					        <li class="active"><a href="newform.html" id="first">Personal Details</a></li>
+					        <li><a href="newform.html" id="second">Parents Details</a></li>
+					        <li><a href="newform.html" id="third">Academic Details</a></li>
+					        <li><a href="newform.html" id="fourth">Medical Details</a></li>
+					        <li><a href="newform.html" id="fifth">Other Details</a></li>
+				      	</ul>
+	    			</nav>
+	    		</div>
+	    		
+				<form class="form-horizontal" action="details.php" method="post">
+	    			<div id="first1step" class="col-sm-10">
+						<h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPERSONAL DETAILS</h4><br>
+							<div class="form-group">
+				    			<label class="control-label col-xs-2" for="grno">GR no:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="grno" class="form-control" id="grno" placeholder="Enter grno" >
+				    				</div>
+				  			</div>
+							<div class="form-group">
+				    			<label class="control-label col-xs-2" for="branch">Branch:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="branch" class="form-control" id="branch" placeholder="Enter branch">
+				    				</div>
+				  			</div>
+				 			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="rollno">Roll no:</label>
+				    				<div class="col-xs-7">
+				      					<input type="number" name="rollno" class="form-control" id="rollno" placeholder="Enter roll no.">
+				    				</div>
+				  			</div>	
+				  			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="name">Name:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="name" class="form-control" id="name" placeholder="Enter full name">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="nickname">Nickname:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="nickname" class="form-control" id="nickname" placeholder="Enter nickname">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="dob">Date of birth:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="dob" class="form-control" id="dob" placeholder="dd/mm/yyyy">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="smob">Students mobile no.:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="smob" class="form-control" id="smob" placeholder="Enter contact no.">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="email">Email Address:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="email" class="form-control" id="email" placeholder="Enter email adrress">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="haddr">Home Address:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="haddr" class="form-control" id="haddr" placeholder="Enter home adrress">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="paddr">Present Address:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="paddr" class="form-control" id="paddr" placeholder="Enter present adrress">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="sibling">Siblings names and ages:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="sibling" class="form-control" id="sibling" placeholder="Enter siblings names and ages">
+				    				</div>
+				  			</div>
+				  			<div class="form-group"> 
+				   				<div class="col-sm-offset-1 col-sm-10">
+				      				<button type="button" id="firstbtn" class="form-control btn btn-success" style="width:4cm;margin-left:7cm;">next</button>
+				    			</div>
+				  			</div>
+				  	</div>
+				  	<!-second starts here->
+				  	<div id="second2step" class="col-sm-10">
+						<h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPARENTS DETAILS</h4><br>
+							<div class="form-group">
+				    			<label class="control-label col-xs-2" for="fname">Father's Name:</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="fname" class="form-control" id="fname" placeholder="Enter fathers name">
+				    				</div>
+				  			</div>
+				 			<div class="form-group">
+				    			<label class="control-label col-xs-2" for="foccupation">Occupation:</label>
+				    				<div class="col-xs-7">
+				      					<input type="text" name="foccupation" class="form-control" id="foccupation" placeholder="Enter his Occupation">
+				    				</div>
+				    		</div>
+				    		<div class="form-group">
+				    			<label class="control-label col-xs-2" for="mname">Mother's Name:</label>
+				    				<div class="col-xs-7">
+				      					<input type="text" name="mname"  class="form-control" id="mname" placeholder="Enter her Occupation">
+				    				</div>
+				    		</div>
+				    		<div class="form-group">
+				    			<label class="control-label col-xs-2" for="moccupation">Occupation:</label>
+				    				<div class="col-xs-7">
+				      					<input type="text" name="moccupation" class="form-control" id="moccupation" placeholder="Enter his Occupation">
+				    				</div>
+				    		</div>
+				    		<div class="form-group">
+				    			<label class="control-label col-xs-2" for="pemail">Parent Email Address:</label>
+				    				<div class="col-xs-7">
+				      					<input type="email" name="pemail" class="form-control" id="pemail" placeholder="Enter email address Occupation">
+				    				</div>
+				    				
+				    		</div>
+				    		<div class="form-group"> 
+				   				<div class="col-sm-offset-1 col-sm-10">
+				   					<button type="button" id="secondbtnback" class="btn btn-success" style="width:4cm;margin-left:3cm;">back</button>
+				      				<button type="button" id="secondbtn" class="btn btn-success" style="width:4cm;">next</button>
+
+
+				    			</div>
+				  			</div>
+
+				    </div>
+				    <!-third starts here->
+				    <div id="third3step" class="col-sm-10">
+						<h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspACADEMIC DETAILS</h4><br>
+							<h5>SSC:</h5>
+							<div class="form-group">
+								<label class="control-label col-xs-2" for="ssc">%</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="ssc" class="form-control" id="ssc" placeholder="Enter ssc %">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="smedium">Medium</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="smedium" class="form-control" id="smedium" placeholder="Enter Medium">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="sboard">Board</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="sboard" class="form-control" id="sboard" placeholder="Enter Board">
+				    				</div>
+				  			</div>
+				  			<h5>HSC:</h5>
+							<div class="form-group">
+								<label class="control-label col-xs-2" for="hsc">%</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="hsc" class="form-control" id="hsc" placeholder="Enter hsc %">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="hmedium">Medium</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="hmedium" class="form-control" id="hmedium" placeholder="Enter Medium">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="hboard">Board</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="hboard" class="form-control" id="hboard" placeholder="Enter Board">
+				    				</div>
+				  			</div>
+
+				  			<div class="form-group"> 
+				   				<div class="col-sm-offset-1 col-sm-10">
+				      				<button type="button" id="thirdbtnback" class="btn btn-success" style="width:4cm;margin-left:3cm;">back</button>
+
+				      				<button type="button" id="thirdbtn" class="btn btn-success" style="width:4cm;">next</button>
+				    			</div>
+				  			</div>
+						</div>
+						<!-fourth is here->
+						<div id="fourth4step" class="col-sm-10">
+						<h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMEDICAL DETAILS</h4><br>
+							<div class="form-group">
+								<label class="control-label col-xs-2" for="bg">Blood Group</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="bg" class="form-control" id="bg" placeholder="Enter blood group">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="ht">Height</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="ht" class="form-control" id="ht" placeholder="Height in cm">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="wt">Weight</label>
+				    				<div class="col-xs-7">
+				      					<input type="txt" name="wt"  class="form-control" id="wt" placeholder="Weight in kg">
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="hp">Health Problems(if any)</label>
+				    				<div class="col-xs-7">
+				      					<textarea class="form-control" name="hp" rows="2" id="hp"></textarea>
+				    				</div>
+				  			</div>
+				  			
+				  			<div class="form-group"> 
+				   				<div class="col-sm-offset-1 col-sm-10">
+				      				<button type="button" id="fourthbtnback" class="btn btn-success" style="width:4cm;margin-left:5cm;">back</button>
+				      				<button type="button" id="fourthbtn" class="btn btn-success" style="width:4cm;">next</button>
+				    			</div>
+				  			</div>
+				  		</div>
+				  	<!-5th is here->
+
+				  	<div id="fifth5step" class="col-sm-10">
+						<h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMEDICAL DETAILS</h4><br>
+				  			
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="hobbies">Hobbies:</label>
+				    				<div class="col-xs-7">
+				      					<textarea class="form-control" name="hobbies" rows="2" id="hobbies"></textarea>
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="strengths">Strength and Weakness:</label>
+				    				<div class="col-xs-7">
+				      					<textarea class="form-control" name="strengths" rows="2" id="strengths"></textarea>
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="stgoals">Short Term goals:</label>
+				    				<div class="col-xs-7">
+				      					<textarea class="form-control" name="stgoals" rows="2" id="stgoals"></textarea>
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="ltgoals">Long Term goals:</label>
+				    				<div class="col-xs-7">
+				      					<textarea class="form-control" name="ltgoals" rows="2" id="ltsgoals"></textarea>
+				    				</div>
+				  			</div>
+				  			<div class="form-group">
+								<label class="control-label col-xs-2" for="extra">Extra Curricular/Sports/Cultural Achievements</label>
+				    				<div class="col-xs-7">
+				      					<textarea class="form-control" name="extra" rows="2" id="extra"></textarea>
+				    				</div>
+				  			</div>
+				  			<div class="form-group"> 
+				   				<div class="col-sm-offset-1 col-sm-10">
+				      				<button type="button" id="fifthbtnback" class="btn btn-success" style="width:4cm;margin-left:5cm;">back</button>
+				      				<button type="submit" id="fifthbtn" class="btn btn-success" style="width:4cm;">submit</button>
+				    			</div>
+				  			</div>
+
+				  		</div>
+
+					</form>
+			
+			<script>
+   $(document).ready(function(){
+     $("#firstbtn").click(function(){
+	     $("#first1step").hide();
+		 $("#second2step").show();
+	 });
+	 $("#secondbtn").click(function(){
+	     $("#third3step").show();
+		 $("#second2step").hide();
+	 });
+
+	 $("#thirdbtn").click(function(){
+	     $("#fourth4step").show();
+		 $("#third3step").hide();
+	 });
+	 $("#fourthbtn").click(function(){
+	     $("#fifth5step").show();
+		 $("#fourth4step").hide();
+	 });
+		 $("#fifthbtnback").click(function(){
+	     $("#fifth5step").hide();
+		 $("#fourth4step").show();
+	 });
+
+	 $("#fourthbtnback").click(function(){
+	     $("#fourth4step").hide();
+		 $("#third3step").show();
+	 });
+	 $("#thirdbtnback").click(function(){
+	     $("#third3step").hide();
+		 $("#second2step").show();
+	 });
+	 $("#secondbtnback").click(function(){
+	     $("#second2step").hide();
+		 $("#first1step").show();
+	 });
+
+	 $("#first").click(function(){
+	     $("#first1step").show();
+		 $("#second2step,#third3step,#fourth4step,#fifth5step").hide();
+
+	 });
+
+	 $("#second").click(function(){
+	     $("#first1step,#third3step,#fourth4step,#fifth5step").hide();
+		 $("#second2step").show();
+	 });
+
+	 $("#third").click(function(){
+	     $("#first1step,#second2step,#fourth4step,#fifth5step").hide();
+		 $("#third3step").show();
+	 });
+	 $("#fourth").click(function(){
+	     $("#fourth4step").show();
+		 $("#first1step,#second2step,#fifth5step,#third3step").hide();
+	 });
+	  $("#fifth").click(function(){
+	     $("#fifth5step").show();
+		 $("#first1step,#second2step,#third3step,#fourth4step").hide();
+	 });
+	
+}); 
+</script>				
+				  	
+			<div>
+		</div>
