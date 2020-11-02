@@ -21,21 +21,25 @@ This project is an empirical evaluation of distributed Key/value storage System.
 
 ### 4. Android Projects:
 This folder consists of a list of various android projects i've developed using android studio.\
+
 **Technologies used:** Android Studio
 
 
 ### 5. Attendance:
 The Attendance system is a web technology developed for the professor to mark and maintain the attendance of the students inclass.\
+
 **Technologies used:** PHP, XAMPP
 
 
 ### 6. Proctor:
 Proctor is a smart system developed for the professor for managing and keeping track of student's acedemic performance, send email notifications, store student details as well as to maintain the attendance of the students.\
+
 **Technologies used:** PHP, XAMPP
 
 
 ### 7. Resort:
 Resort project is website developed using bootstrap,css to display a list of services, rates,etc.\
+
 **Technologies used:** Bootstrap, CSS
 
 
