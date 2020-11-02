@@ -16,6 +16,7 @@ Smart Attendance System is built by integrating Raspberry Pi and a camera module
 
 ### 3.AOS: 
 This project is an empirical evaluation of distributed Key/value storage System.\
+
 **Technologies used:** Cassandra, MongoDB, Redis
 
 
