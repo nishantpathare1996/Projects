@@ -3,7 +3,7 @@
 The Projects repository contains the various projects that i've worked on.
 
 ### 1. InstaClone:
-Developed a full-fledged web application clone of Instagram using MERN stack by leveraging technologies such as React Hooks, mongoose, JWT, postman, MongoDB atlas, nodemailer, Cloudinary, etc.\
+Developed a full-fledged web application clone of Instagram using MERN stack by leveraging technologies such as React Hooks, mongoose, JWT, postman, MongoDB atlas, nodemailer, Cloudinary, etc.\<br/>
 **Technologies used:** MongoDB, ExpressJS, ReactJS, NodeJS
 
 ### 2. Smart Attendance System:
